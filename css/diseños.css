@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 31 ene 2025, 19:24:29
+    Author     : usuario
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+}
+
+body{
+    background-image: url('https://i.ibb.co/RGynYBk5/Pantalla2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.valentin-container, .mensaje-tierno{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.mensaje-tierno .gif-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valentin-container h1, .mensaje-tierno h2{
+    color: #FF69B4;
+    font-size: 36px;
+}
+
+.botones{
+    margin-top: 20px;
+}
+
+.botones button{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn_si{
+    background-color: red;
+    color: white;
+}
+
+#btn_no{
+    background-color: black;
+    color: white;
+}
+
+.gif {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
